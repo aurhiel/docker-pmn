@@ -9,7 +9,7 @@ A simple docker-compose structure built on PHP, MySQL & NGINX to easily develop 
 
 ## Commands with `Makefile`
 ```bash
-# Build the application & shell into it
+# Build the application
 $ make build
 
 # Launch application & shell into it
@@ -21,8 +21,8 @@ $ make reboot
 # Shell into application
 $ make shell
 
-# Shell into application's database
-$ make shell-db
+# Shell into application as root
+$ make shell-root
 
 # Shutdown application
 $ make shutdown
